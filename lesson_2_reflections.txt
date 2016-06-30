@@ -1,0 +1,16 @@
+Haciendo el tonto se me ha borrado el archivo... Le veo lagunas al trabajo con comandos...
+
+No recuerdo muy bien todo lo que escribí, pero hemos trabajado con los comandos:
+
+git init para crear un repositorio vacío a partir de un directorio de trabajo.
+git add para agragar archivos al staging area, donde formar el conjunto lógico de archivos a trackear con un commit de forma que los commits ser creen a partir de cambios lógicos en la evolución del proyecto. Para añadir todos los del repositorio: git add -A, para añadir los que han cambiado: git add -u, y para añadir todos los archivos del directorio en el árbol git add . (el punto es importante).
+git status para conocer el estado de cambios en los archivos desde el último commit
+git commit y git commit -m "mensaje de commit siguiendo buenas prácticas" para crear commits, manualmente, como siempre en git (algo bueno en mi opinión).
+
+Se me borró el archivo jugando con el cambio de autor y de mensaje una vez terminado el commit. También es confuso el cambio de posición con el checkout en ocasiones (por ejemplo cuando se te borra un archivo...), y el uso de HEAD.
+
+Vuelvo a repetir todo el ejercicio...buscando como se borra un repositorio...
+
+
+
+
