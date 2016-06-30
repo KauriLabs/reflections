@@ -1,0 +1,21 @@
+Resulta tremendamente útil poder comparar las diferencias entre dos archivos durante el desarrollo de software. 
+La razón más obvia es detectar posibles errores de escritura, muy fáciles de rectificar usando el sistema de comparar versiones nuevas y viejas; también usando software de desarrollo que nos detecte errores en palablas clave.
+Por otro lado, al comparar versiones viejas y nuevas de programas podemos ver los cambios realizados y si los errores pueden provenir de cambios mal escritos, incompletos, etc.
+Los programas de control de versiones serían mucho más útiles si además de comparar archivos nos guardase copias del programa a medida que lo desarrollamos, automatizando dicho control de versiones a nuestro gusto.
+
+Voy un paso por delante reflexionando sobre el tema. El guardar y nombrar automaticamente las versiones antiguas será tremendamente útil para el control de versiones. Ahora hay que ver cómo podemos configurar esa automatización para que se adapte a nuestra forma de programar y nos convierta en mejores desarrolladores.
+Por otro lado hay que ver cómo coordinar el control de versiones para el trabajo en equipo.
+
+La creación de commits automática tiene la ventaja de poder dejar a un lado el control de versiones y dedicarse por entero al programa sin preocuparse más, pero al guardarse en cualquier momento puede ser difícil volver atrás y buscar el momento al que queremos volver o comparar archivos demasiado grandes. Por ello un control manual del momento en que hacemos el commit podría hacer el proceso más eficiente al ser nosotros los que decidimos el mejor momento y añadimos un mensaje explicativo que nos oriente a la hora de comparar versiones.
+
+Git es un controlador de versiones específico para el desarrollo, por lo que está preparado para el contenido interconectado, como suele ocurrir en casi cualquier proyecto. En cambio en Google Docs, que trabaja con documentos, es más útil conservar memoria copiando únicamente los archivos que son modificados. Aunque Google Docs puede ser usado en el control de versiones, un software específico siempre es más eficiente; es una buena práctica utilizar el software para las tareas para las que fue diseñado, será más eficiente y productivo en ellas que en cualquier otro sitio.
+
+Es muy útil usar los comandos git log y git diff para el control de versiones, el primero te muestra el historial de commits y el segundo compara dos de tu elección, es muy fácil además.
+
+Al poder volver a versiones anteriores del programa fácilmente y estudiar los cambios efectuados en los distintos commits da mucha seguridar a la hora de arriesgarse a hacer grandes cambios en el código, que de otro modo serían muy tediosos de desacer, con los posibles errores de escritura que ello conlleva.
+
+Los archivos de configuración están listos, pero son como todos los archivos de configuración...un lío. Así que si tengo que volver a configurarlo debería guardarlos o conocer algún lugar dónde descargar unos ya terminados. Me ha gustado la funciónn alias para acortar expresiones y el utilizarla para abrir otras aplicaciones desde git. 
+Parece que estamos listos para continuar con la lección 2/3 de Git and GitHub course.
+
+
+
